@@ -9,25 +9,44 @@ import Interests from "@/components/Interests";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)]">
-      <main className="w-full m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px] ">
-        <section>
+      <main className="w-full ">
+
+        <div className="mt-8">
+        <section className="m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px]">
         <Navbar />
         </section>
-        <section>
+        </div>
+
+        <div>
+
+        <section className="m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px]">
         <Hero />
         </section>
-        <section className="py-2">
+        </div>
+
+        <div className="bg-accent py-12">
+        <section className="m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px]">
         <Edu />
         </section >
-        <section  className="py-2">
+        </div>
+
+        <div>
+        <section className="m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px]">
         <Projects />
         </section>
-        <section  className="py-2">
+        </div>
+        <div>
+
+        <section className="m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px]">
         <Skills />
         </section>
-        <section  className="py-2">
+        </div>
+        <div>
+
+        <section className="m-auto sm:w-[426px] md:w-[540px] lg:w-[1000px]">
           <Interests />
         </section>
+        </div>
       </main>
       <footer className="mt-auto h-[200px] w-full bg-primary gap-2 flex-wrap items-center justify-center">
         {/* add icons with links to my different social media pages */}

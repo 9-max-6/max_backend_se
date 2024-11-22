@@ -70,3 +70,10 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.hero {
+  color: hsl(221.2 83.2% 53.3%)
+}
+span {
+  font-weight: 700;
+}
