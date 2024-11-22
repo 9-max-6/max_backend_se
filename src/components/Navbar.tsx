@@ -3,13 +3,9 @@ import { Button } from "./ui/button"
 function Navbar() {
   return (
     <div>
-        <ul className="flex w-full">
-        <li>
-                <Button variant="ghost">
-                    Home
-                </Button>
-        </li>
-        <div className="ml-auto flex space-between gap-6 lg:gap-12">
+        <ul className="w-full">
+       
+        <div className="w-full mx-auto flex space-between gap-6 lg:gap-12">
             <li>
                 <Button variant="ghost">
                     Education
@@ -22,14 +18,15 @@ function Navbar() {
             </li>
             <li>
                 <Button variant="ghost">
-                    Interests
+                    Skills
                 </Button>
             </li>
             <li>
-                <Button>
-                    Hire me
+                <Button variant="ghost">
+                    Interests
                 </Button>
             </li>
+            
         </div>
         </ul>
     </div>
